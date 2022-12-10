@@ -26,6 +26,7 @@ export const App = () => {
     );
   });
 
+
   const [filter, setFilter] = useState('');
   // Responsible for updating the localStorage
   useEffect(() => {
